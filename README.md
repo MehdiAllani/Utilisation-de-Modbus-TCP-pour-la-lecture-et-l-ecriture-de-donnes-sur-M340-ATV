@@ -6,11 +6,13 @@
 
 ### Présentation du convoyeur et de son fonctionnement en mode automatique :
 Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs de position de vérins et de la pièce, ainsi que de plusieurs actionneurs, tels que des vérins et des moteurs. L'ensemble du système est contrôlé par un automate programmable industriel (API) M340, qui est responsable de l'exécution des différents processus de la machine.
-
+## Code
+```
 1. Condition initiale (Convoyeur en face du convoyeur (T1)).
 2. Condition (À la détection d'une pièce au début du convoyeur) : convoyeur monte.
 3. Condition (Une fois arrivé au niveau haut) : rotation vers la direction du convoyeur (T2).
 4. Condition (Rotation terminée) : convoyeur descend.
+```
 
 ### L'objectif du projet : 
 
