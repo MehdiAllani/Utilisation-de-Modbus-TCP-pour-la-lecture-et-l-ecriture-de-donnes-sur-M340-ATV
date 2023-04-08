@@ -23,12 +23,6 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 1. Comment intégrer efficacement une carte Raspberry Pi dans une machine industrielle contrôlée par un automate ?
 2. Comment concevoir une interface Node-RED intuitive pour contrôler les actionneurs de la machine en temps réel et permettre une automatisation avancée des processus industriels ?
 
-#### Cette problématique soulève plusieurs questions clés telles que :
-
-* Quels sont les protocoles de communication à utiliser pour connecter la carte Raspberry Pi à l'API de la machine ?
-* Comment intégrer les capteurs existants de la machine avec la carte Raspberry Pi et comment configurer les GPIO (General Purpose Input Output) pour contrôler les actionneurs de la machine ?
-* Quels sont les besoins des utilisateurs finaux pour l'interface utilisateur de Node-RED, et comment concevoir une interface qui soit intuitive et facile à utiliser ?
-
 ### Réalisation :
 
 ### Matériels :
