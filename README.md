@@ -13,13 +13,16 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 4. Condition (Rotation terminée) : convoyeur descend.
 
 ### L'objectif du projet : 
+
 - Améliorer la connectivité, la surveillance et l'automatisation d'une machine industrielle existante.
 
 ### Solution proposée: (domaine industrie 4.0)
+
 - En intégrant une carte Raspberry Pi dans cette machine, nous pouvons connecter les capteurs et les actionneurs de la machine à la carte. La carte peut alors lire les données des capteurs et les envoyer à un système de surveillance à distance.
 - En utilisant Node-RED comme interface, nous pouvons créer une interface graphique conviviale pour surveiller les données des capteurs et les états des actionneurs.
 
 ### Problematique :
+
 1. Comment intégrer efficacement une carte Raspberry Pi dans une machine industrielle contrôlée par un automate ?
 2. Comment concevoir une interface Node-RED intuitive pour contrôler les actionneurs de la machine en temps réel et permettre une automatisation avancée des processus industriels ?
 
