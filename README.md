@@ -23,8 +23,8 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 
 ### Problematique :
 
-1. Comment intégrer efficacement une carte Raspberry Pi dans une machine industrielle contrôlée par un automate ?
-2. Comment concevoir une interface Node-RED intuitive pour contrôler les actionneurs de la machine en temps réel et permettre une automatisation avancée des processus industriels ?
+1. Comment intégrer une carte Raspberry Pi dans une machine industrielle automatisée ?
+2. Comment concevoir une interface Node-RED pour le contrôle en temps réel des actionneurs et l'automatisation des processus industriels ?
 
 ### Réalisation :
 
