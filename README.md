@@ -6,7 +6,6 @@
 
 ### Présentation du convoyeur et de son fonctionnement en mode automatique :
 Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs de position de vérins et de la pièce, ainsi que de plusieurs actionneurs, tels que des vérins et des moteurs. L'ensemble du système est contrôlé par un automate programmable industriel (API) M340, qui est responsable de l'exécution des différents processus de la machine.
-## Code
 ```
 1. Condition initiale (Convoyeur en face du convoyeur (T1)).
 2. Condition (À la détection d'une pièce au début du convoyeur) : convoyeur monte.
@@ -24,10 +23,10 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 - En utilisant Node-RED comme interface, nous pouvons créer une interface graphique conviviale pour surveiller les données des capteurs et les états des actionneurs.
 
 ### Problematique :
-
+```
 1. Comment intégrer une carte Raspberry Pi dans une machine industrielle automatisée ?
 2. Comment concevoir une interface Node-RED pour le contrôle en temps réel des actionneurs et l'automatisation des processus industriels ?
-
+```
 ### Réalisation :
 
 ### Matériels :
@@ -48,9 +47,11 @@ Nous avons attribué une plage d'adresses IP de 192.168.0.1 à 192.168.0.254.
 #### iii. Les adresses IP doivent être différentes l'une de l'autre, car chaque adresse IP doit être unique sur le réseau.
 
 Pour respecter ces conditions, nous pouvons attribuer les adresses IP suivantes à chaque appareil :
+```
 Automate : 192.168.0.1
 Ordinateur fixe : 192.168.0.241
 Carte Raspberry : 192.168.0.121
+```
 	
 
 ## Auteur
