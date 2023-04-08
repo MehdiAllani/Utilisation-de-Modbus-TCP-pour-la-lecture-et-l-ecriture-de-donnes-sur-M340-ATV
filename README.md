@@ -29,6 +29,24 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 * Comment intégrer les capteurs existants de la machine avec la carte Raspberry Pi et comment configurer les GPIO (General Purpose Input Output) pour contrôler les actionneurs de la machine ?
 * Quels sont les besoins des utilisateurs finaux pour l'interface utilisateur de Node-RED, et comment concevoir une interface qui soit intuitive et facile à utiliser ?
 
+### Réalisation :
+
+#### Matériels :
+J'ai eu à ma disposition le convoyeur relié à un automate Schneider M340 équipé d'un module de communication Ethernet NOC 0401, d'une carte Raspberry Pi 3 B+ et d'un ordinateur de bureau.
+#### 1. Définition du protocole de communication :
+La communication entre les dispositifs d'automatisation industrielle se fait avec le protocole Modbus, tandis qu'Ethernet est un protocole de communication pour les réseaux locaux. Pour connecter des équipements Modbus à un réseau Ethernet, on peut utiliser un convertisseur Modbus vers Ethernet qui convertit les données de Modbus en paquets de données Ethernet. Il existe également une variante de Modbus appelée Modbus TCP qui permet une communication directe via Ethernet en encapsulant les données Modbus dans des paquets TCP/IP. La relation entre Modbus et Ethernet peut être établie via un convertisseur Modbus vers Ethernet ou directement via le protocole Modbus TCP.
+#### 2. Connexions des trois appareils à un même réseau Modbus TCP :
+Il existe 3 conditions à respecter :
+##### i. Les adresses IP des trois appareils doivent être dans le même réseau IP.
+Dans cet exemple, nous avons défini le réseau IP comme étant "192.168.0.0".
+##### ii. Les adresses IP doivent être dans la plage d'adresses IP attribuée au réseau.
+Nous avons attribué une plage d'adresses IP de 192.168.0.1 à 192.168.0.254.
+##### iii. Les adresses IP doivent être différentes l'une de l'autre, car chaque adresse IP doit être unique sur le réseau.
+Pour respecter ces conditions, nous pouvons attribuer les adresses IP suivantes à chaque appareil :
+	Automate : 192.168.0.1
+	Ordinateur fixe : 192.168.0.241
+	Carte Raspberry : 192.168.0.121
+	
 
 ## Auteur
 * **Mehdi Allani** [@Mehdi Allani](https://www.linkedin.com/in/mehdi-allani-3a18ab1b2/)
