@@ -33,8 +33,10 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 J'ai eu à ma disposition le convoyeur relié à un automate Schneider M340 équipé d'un module de communication Ethernet NOC 0401, d'une carte Raspberry Pi 3 B+ et d'un ordinateur de bureau.
 ### 1. Définition du protocole de communication :
 
-La communication entre les dispositifs d'automatisation industrielle se fait avec le protocole Modbus, tandis qu'Ethernet est un protocole de communication pour les réseaux locaux. 
+La communication entre les dispositifs d'automatisation industrielle se fait avec le protocole Modbus, tandis qu'Ethernet est un protocole de communication pour les réseaux locaux.
+
 Il existe une variante de Modbus appelée Modbus TCP qui permet une communication directe via Ethernet en encapsulant les données Modbus dans des paquets TCP/IP. 
+
 La relation entre Modbus et Ethernet peut être établie via un convertisseur Modbus vers Ethernet ou directement via le protocole Modbus TCP.
 
 ### 2. Connexions des trois appareils à un même réseau Modbus TCP :
