@@ -12,10 +12,10 @@ VI. Réalisation
  2. Définition du protocole de communication 
  3. Connexions des trois appareils à un même réseau Modbus TCP 
  4. Programme Node-RED
-	4.1. Lecture des données des capteurs 
-	4.2. Écriture ou commande à travers notre interface
-	4.3. Échange de données
-	4.4. Visualisation à travers une interface Node-RED
+	1. Lecture des données des capteurs 
+	2. Écriture ou commande à travers notre interface
+	3. Échange de données
+	4. Visualisation à travers une interface Node-RED
 VII. Conclusion
 
 ---
