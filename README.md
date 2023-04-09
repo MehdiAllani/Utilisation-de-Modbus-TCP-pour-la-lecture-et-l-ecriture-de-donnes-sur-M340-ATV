@@ -105,7 +105,9 @@ nous avons trouvé 6 capteurs, donc 6 données à lire :
 
 - Création de copies des adresses des capteurs :
 ```
-Pour manipuler les variables d'états de nos capteurs, nous avons créé des copies sous forme de bits mémoire sur le programme de l'automate programmable industriel (API) M340, qui est responsable de l'exécution des différents processus de la machine.
+Pour manipuler les variables d'états de nos capteurs, nous avons créé des copies sous forme de bits  
+mémoire sur le programme de l'automate programmable industriel (API) M340, qui est responsable de  
+l'exécution des différents processus de la machine.
 ```
 - Pour la collecte des données, nous avons utilisé 3 nœuds :
 ```
