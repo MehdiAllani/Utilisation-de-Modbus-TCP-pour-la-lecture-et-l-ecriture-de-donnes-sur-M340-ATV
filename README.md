@@ -118,6 +118,8 @@ Nœud Change : qui, dans ce cas, permet de prendre un bit d'une donnée de taill
 Nœud debug : qui permet d'afficher les données transmises dans le flux.	
 ```
 ![](images/image_006.png)
+
+![](images/image_008.png)
 ### b. Écriture ou commande à travers notre interface :
 Pour l'envoi de commandes, nous avons utilisé 2 nœuds :
 
@@ -125,6 +127,7 @@ Pour l'envoi de commandes, nous avons utilisé 2 nœuds :
 Nœud Switch : qui permet de contrôler l'action du convoyeur.
 Nœud client Modbus TCP : pour écrire msg.payload.
 ```
+![](images/image_007.png)
 ### c. Échange de données :
 
 Pour l'échange de données avec une autre machine industrielle disposant d'une autre carte Raspberry, nous avons ajouté des nœuds "mqtt out", qui permettent de publier des messages à un broker MQTT.
