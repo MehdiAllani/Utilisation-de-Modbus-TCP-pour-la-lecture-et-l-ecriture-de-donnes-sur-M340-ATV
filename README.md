@@ -23,10 +23,10 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 - En utilisant Node-RED comme interface, nous pouvons créer une interface graphique conviviale pour surveiller les données des capteurs et les états des actionneurs.
 
 ### Problematique :
-```
+
 1. Comment intégrer une carte Raspberry Pi dans une machine industrielle automatisée ?
 2. Comment concevoir une interface Node-RED pour le contrôle en temps réel des actionneurs et l'automatisation des processus industriels ?
-```
+
 ### Réalisation :
 
 ### Matériels :
