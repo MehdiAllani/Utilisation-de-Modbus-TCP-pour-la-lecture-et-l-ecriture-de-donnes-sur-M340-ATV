@@ -58,7 +58,33 @@ Automate : 192.168.0.1
 Ordinateur fixe : 192.168.0.241
 Carte Raspberry : 192.168.0.121
 ```
-	
+### 3. Programme Node-RED :
 
+Pour la réalisation de notre projet, nous avons développé 4 fonctionnalités :
+
+i. Lecture des données des capteurs :
+
+Je vais vous décrire la marche à suivre que j'ai adoptée.
+
+- Identification des capteurs et de leurs adresses :
+
+Pour la lecture, nous avons commencé par identifier les capteurs dans tout le système.
+
+- Nous avons trouvé 6 capteurs, donc 6 données à lire :
+```
+2 capteurs pour la position du "vérin de rotation du convoyeur"
+2 capteurs pour la position du "vérin de transition vertical"
+2 capteurs pour localiser le produit sur le convoyeur.
+```
+- Création de copies des adresses des capteurs :
+
+Pour manipuler les variables d'états de nos capteurs, nous avons créé des copies sous forme de bits mémoire sur le programme de l'automate programmable industriel (API) M340, qui est responsable de l'exécution des différents processus de la machine.
+
+- Pour la collecte des données, nous avons utilisé 3 nœuds :
+```
+Nœud client Modbus TCP : il suffit d'identifier le type de variable et son adresse.
+Nœud Change : qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
+Nœud debug : qui permet d'afficher les données transmises dans le flux.	
+```
 ## Auteur
 * **Mehdi Allani** [@Mehdi Allani](https://www.linkedin.com/in/mehdi-allani-3a18ab1b2/)
