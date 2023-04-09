@@ -109,7 +109,7 @@ Pour manipuler les variables d'états de nos capteurs, nous avons créé des cop
 mémoire sur le programme de l'automate programmable industriel (API) M340, qui est responsable de  
 l'exécution des différents processus de la machine.
 ```
-- Pour la collecte des données, nous avons utilisé 3 nœuds :
+- **Pour la collecte des données, nous avons utilisé 3 nœuds :**
 ```
 Nœud client Modbus TCP : il suffit d'identifier le type de variable et son adresse.
 Nœud Change : qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
