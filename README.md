@@ -62,7 +62,7 @@ Carte Raspberry : 192.168.0.121
 
 Pour la réalisation de notre projet, nous avons développé 4 fonctionnalités :
 
-#### 3.1. Lecture des données des capteurs :
+### 3.1. Lecture des données des capteurs :
 
 Je vais vous décrire la marche à suivre que j'ai adoptée.
 
@@ -84,14 +84,14 @@ Nœud client Modbus TCP : il suffit d'identifier le type de variable et son adre
 Nœud Change : qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
 Nœud debug : qui permet d'afficher les données transmises dans le flux.	
 ```
-#### 3.2. Écriture ou commande à travers notre interface :
+### 3.2. Écriture ou commande à travers notre interface :
 Pour l'envoi de commandes, nous avons utilisé 2 nœuds :
 
 ```
 Nœud Switch : qui permet de contrôler l'action du convoyeur.
 Nœud client Modbus TCP : pour écrire msg.payload.
 ```
-#### 3.3. Échange de données :
+### 3.3. Échange de données :
 
 Pour l'échange de données avec une autre machine industrielle disposant d'une autre carte Raspberry, nous avons ajouté des nœuds "mqtt out", qui permettent de publier des messages à un broker MQTT.
 
@@ -114,7 +114,7 @@ Nous avons également pu récupérer les positions x, y et z à travers :
 Server : 192.168.50.83 (wlan0)
 Topic : Pos x, y et Pos z
 ```
-#### 3.4. Visualisation à travers une interface Node-RED :
+### 3.4. Visualisation à travers une interface Node-RED :
 Pour la visualisation, j'ai divisé mes données en groupe et utilisé :
 ```
 Nœud Switch pour l'écriture.
