@@ -68,9 +68,7 @@ Je vais vous décrire la marche à suivre que j'ai adoptée.
 
 - Identification des capteurs et de leurs adresses :
 
-Pour la lecture, nous avons commencé par identifier les capteurs dans tout le système.
-
-- Nous avons trouvé 6 capteurs, donc 6 données à lire :
+Pour la lecture, nous avons commencé par identifier les capteurs dans tout le système, nous avons trouvé 6 capteurs, donc 6 données à lire :
 ```
 2 capteurs pour la position du "vérin de rotation du convoyeur"
 2 capteurs pour la position du "vérin de transition vertical"
