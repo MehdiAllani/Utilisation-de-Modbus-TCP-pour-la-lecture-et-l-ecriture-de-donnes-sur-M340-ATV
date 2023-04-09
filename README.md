@@ -117,6 +117,7 @@ Nœud client Modbus TCP : il suffit d'identifier le type de variable et son adre
 Nœud Change : qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
 Nœud debug : qui permet d'afficher les données transmises dans le flux.	
 ```
+![](images/image_006.png)
 ### b. Écriture ou commande à travers notre interface :
 Pour l'envoi de commandes, nous avons utilisé 2 nœuds :
 
