@@ -33,9 +33,9 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 
 ### VI. Réalisation :
 
-### Matériels :
+### 1. Matériels :
 J'ai eu à ma disposition le convoyeur relié à un automate Schneider M340 équipé d'un module de communication Ethernet NOC 0401, d'une carte Raspberry Pi 3 B+ et d'un ordinateur de bureau.
-### 1. Définition du protocole de communication :
+### 2. Définition du protocole de communication :
 
 La communication entre les dispositifs d'automatisation industrielle se fait avec le protocole Modbus, tandis qu'Ethernet est un protocole de communication pour les réseaux locaux.
 
@@ -43,7 +43,7 @@ Il existe une variante de Modbus appelée Modbus TCP qui permet une communicatio
 
 La relation entre Modbus et Ethernet peut être établie via un convertisseur Modbus vers Ethernet ou directement via le **protocole Modbus TCP**.
 
-### 2. Connexions des trois appareils à un même réseau Modbus TCP :
+### 3. Connexions des trois appareils à un même réseau Modbus TCP :
 Il existe 3 conditions à respecter :
 ```
  i. Les adresses IP des trois appareils doivent être dans le même réseau IP.
@@ -62,11 +62,11 @@ Automate : 192.168.0.1
 Ordinateur fixe : 192.168.0.241
 Carte Raspberry : 192.168.0.121
 ```
-### 3. Programme Node-RED :
+### 4. Programme Node-RED :
 
 Pour la réalisation de notre projet, nous avons développé 4 fonctionnalités :
 
-### 3.1. Lecture des données des capteurs :
+### 4.1. Lecture des données des capteurs :
 
 Je vais vous décrire la marche à suivre que j'ai adoptée.
 
@@ -88,14 +88,14 @@ Nœud client Modbus TCP : il suffit d'identifier le type de variable et son adre
 Nœud Change : qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
 Nœud debug : qui permet d'afficher les données transmises dans le flux.	
 ```
-### 3.2. Écriture ou commande à travers notre interface :
+### 4.2. Écriture ou commande à travers notre interface :
 Pour l'envoi de commandes, nous avons utilisé 2 nœuds :
 
 ```
 Nœud Switch : qui permet de contrôler l'action du convoyeur.
 Nœud client Modbus TCP : pour écrire msg.payload.
 ```
-### 3.3. Échange de données :
+### 4.3. Échange de données :
 
 Pour l'échange de données avec une autre machine industrielle disposant d'une autre carte Raspberry, nous avons ajouté des nœuds "mqtt out", qui permettent de publier des messages à un broker MQTT.
 
@@ -118,7 +118,7 @@ Nous avons également pu récupérer les positions x, y et z à travers :
 Server : 192.168.50.83 (wlan0)
 Topic : Pos x, y et Pos z
 ```
-### 3.4. Visualisation à travers une interface Node-RED :
+### 4.4. Visualisation à travers une interface Node-RED :
 Pour la visualisation, j'ai divisé mes données en groupe et utilisé :
 ```
 Nœud Switch pour l'écriture.
