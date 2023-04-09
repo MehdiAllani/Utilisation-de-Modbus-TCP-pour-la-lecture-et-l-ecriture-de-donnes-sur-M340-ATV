@@ -4,6 +4,10 @@
 
  [L'école universitaire de physique et d'ingénierie](https://eupi.uca.fr/) dispose d'une ligne de production pédagogique, où un convoyeur rotatif (C) est utilisé pour transporter les pièces fournies par un convoyeur (T1) à un autre convoyeur (T2) perpendiculaire à T1.  Ce convoyeur rotatif est un élément clé de la ligne de production, car il permet de transporter les pièces d'une station à l'autre en utilisant des capteurs et des actionneurs pour optimiser le processus de production. Il est donc crucial de bien comprendre son fonctionnement et son utilisation pour garantir une efficacité maximale de la ligne de production.
 
+### L'objectif du projet : 
+
+- Améliorer la connectivité, la surveillance et l'automatisation d'une machine industrielle existante.
+
 ### Présentation du convoyeur et de son fonctionnement en mode automatique :
 Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs de position de vérins et de la pièce, ainsi que de plusieurs actionneurs, tels que des vérins et des moteurs. L'ensemble du système est contrôlé par un automate programmable industriel (API) M340, qui est responsable de l'exécution des différents processus de la machine.
 ```
@@ -12,10 +16,6 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 3. Condition (Une fois arrivé au niveau haut) : rotation vers la direction du convoyeur (T2).
 4. Condition (Rotation terminée) : convoyeur descend.
 ```
-
-### L'objectif du projet : 
-
-- Améliorer la connectivité, la surveillance et l'automatisation d'une machine industrielle existante.
 
 ### Solution proposée: (domaine industrie 4.0)
 
