@@ -84,5 +84,49 @@ Nœud client Modbus TCP : il suffit d'identifier le type de variable et son adre
 Nœud Change : qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
 Nœud debug : qui permet d'afficher les données transmises dans le flux.	
 ```
+#### 3.2. Écriture ou commande à travers notre interface :
+Pour l'envoi de commandes, nous avons utilisé 2 nœuds :
+
+```
+Nœud Switch : qui permet de contrôler l'action du convoyeur.
+Nœud client Modbus TCP : pour écrire msg.payload.
+```
+#### 3.3. Échange de données :
+
+Pour l'échange de données avec une autre machine industrielle disposant d'une autre carte Raspberry, nous avons ajouté des nœuds "mqtt out", qui permettent de publier des messages à un broker MQTT.
+
+Pour tester la récupération des valeurs de nos capteurs, nous avons testé le partage d'informations sur 2 réseaux :
+1. Réseau wlan0 :
+Tous mes capteurs sont accessibles de n'importe quelle carte depuis 
+```
+Topic : tp4/Nom_du_capteur
+Réseau : 192.168.50.171 (wlan0)
+```
+2. Réseau local :
+```
+Topic : tp4/Nom_du_capteur
+Réseau : 127.0.0.1 (lo)
+```
+Nous avons également pu récupérer les positions x, y et z à travers :
+```
+Server : 192.168.50.83 (wlan0)
+Topic : Pos x, y et Pos z
+```
+#### 3.4. Visualisation à travers une interface Node-RED :
+Pour la visualisation, j'ai divisé mes données en groupe et utilisé :
+```
+Nœud Switch pour l'écriture.
+Nœud Text pour l'affichage.
+```
+### VII. Conclusion :
+Grâce à ce projet, j'ai pu acquérir les compétences suivantes :
+- Créer un réseau Modbus TCP.
+- Modifier l'adresse IP d'un Raspberry Pi ou d'un PC.
+- Établir une communication en lecture.
+- Établir une communication en écriture.
+- Visualiser les échanges.
+- Effectuer des échanges internes et externes.
+
+
 ## Auteur
 * **Mehdi Allani** [@Mehdi Allani](https://www.linkedin.com/in/mehdi-allani-3a18ab1b2/)
