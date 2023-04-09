@@ -24,6 +24,8 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 - En intégrant une carte Raspberry Pi dans cette machine, nous pouvons connecter les capteurs et les actionneurs de la machine à la carte. La carte peut alors lire les données des capteurs et les envoyer à un système de surveillance à distance.
 - En utilisant Node-RED comme interface, nous pouvons créer une interface graphique conviviale pour surveiller les données des capteurs et les états des actionneurs.
 
+![](images/image_002.png)
+
 ### V. Problematique :
 
 1. Comment intégrer une carte Raspberry Pi dans une machine industrielle automatisée ?
