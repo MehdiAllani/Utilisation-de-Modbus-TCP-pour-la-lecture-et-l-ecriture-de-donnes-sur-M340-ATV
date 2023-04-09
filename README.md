@@ -48,7 +48,6 @@ Il existe 3 conditions à respecter :
  ```
 
 Dans cet exemple, nous avons défini le réseau IP comme étant "192.168.0.0".
-
 Nous avons attribué une plage d'adresses IP de "192.168.0.1" à "192.168.0.254".
 
 Pour respecter ces conditions, nous pouvons attribuer les adresses IP suivantes à chaque appareil :
