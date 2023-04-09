@@ -2,12 +2,12 @@
 
 ---
 Table des matières
-I. Mise en situation
-II. L'objectif du projet 
-III. Présentation du convoyeur et de son fonctionnement en mode automatique :
-IV. Solution proposée: (domaine industrie 4.0)
-V. Problematique 
-VI. Réalisation 
+1. Mise en situation
+2. L'objectif du projet 
+3. Présentation du convoyeur et de son fonctionnement en mode automatique :
+4. Solution proposée: (domaine industrie 4.0)
+5. Problematique 
+6. Réalisation 
  1. Matériels
  2. Définition du protocole de communication 
  3. Connexions des trois appareils à un même réseau Modbus TCP 
@@ -16,7 +16,7 @@ VI. Réalisation
 	2. Écriture ou commande à travers notre interface
 	3. Échange de données
 	4. Visualisation à travers une interface Node-RED
-VII. Conclusion
+7. Conclusion
 
 ---
 ### I. Mise en situation:
