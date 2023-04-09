@@ -98,9 +98,9 @@ Je vais vous décrire la marche à suivre que j'ai adoptée.
 - Identification des capteurs et de leurs adresses :
 
 Pour la lecture, nous avons commencé par identifier les capteurs dans tout le système, nous avons trouvé 6 capteurs, donc 6 données à lire :
-<center>
-	![](images/image_004.png)
-</center>
+
+![](images/image_004.png)
+
 
 - Création de copies des adresses des capteurs :
 
