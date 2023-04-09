@@ -99,7 +99,7 @@ Je vais vous décrire la marche à suivre que j'ai adoptée.
 
 Pour la lecture, nous avons commencé par identifier les capteurs dans tout le système, nous avons trouvé 6 capteurs, donc 6 données à lire :
 <center>
-![](images/image_004.png)
+	![](images/image_004.png)
 </center>
 
 - Création de copies des adresses des capteurs :
