@@ -35,6 +35,9 @@ Ce convoyeur rotatif est équipé de différents capteurs, tels que des capteurs
 
 ### 1. Matériels :
 J'ai eu à ma disposition le convoyeur relié à un automate Schneider M340 équipé d'un module de communication Ethernet NOC 0401, d'une carte Raspberry Pi 3 B+ et d'un ordinateur de bureau.
+
+![](images/image_003.png)
+
 ### 2. Définition du protocole de communication :
 
 La communication entre les dispositifs d'automatisation industrielle se fait avec le protocole Modbus, tandis qu'Ethernet est un protocole de communication pour les réseaux locaux.
