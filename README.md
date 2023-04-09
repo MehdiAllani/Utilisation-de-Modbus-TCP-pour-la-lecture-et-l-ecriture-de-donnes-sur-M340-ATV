@@ -47,13 +47,15 @@ Il existe une variante de Modbus appelée Modbus TCP qui permet une communicatio
 La relation entre Modbus et Ethernet peut être établie via un convertisseur Modbus vers Ethernet ou directement via le **protocole Modbus TCP**.
 
 ### 3. Connexions des trois appareils à un même réseau Modbus TCP :
-'''
+<pre>
+```
 > Il existe 3 conditions à respecter :
 
 > Les adresses IP des trois appareils doivent être dans le même réseau IP.
 > Les adresses IP doivent être dans la plage d'adresses IP attribuée au réseau.
 > Les adresses IP doivent être différentes l'une de l'autre (unique sur le réseau).
-'''
+```
+</pre>
 
 Dans cet exemple,
 ```
