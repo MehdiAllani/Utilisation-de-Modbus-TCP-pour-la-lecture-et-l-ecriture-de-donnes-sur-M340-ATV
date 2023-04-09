@@ -37,7 +37,7 @@ La communication entre les dispositifs d'automatisation industrielle se fait ave
 
 Il existe une variante de Modbus appelée Modbus TCP qui permet une communication directe via Ethernet en encapsulant les données Modbus dans des paquets TCP/IP. 
 
-La relation entre Modbus et Ethernet peut être établie via un convertisseur Modbus vers Ethernet ou directement via le protocole Modbus TCP.
+La relation entre Modbus et Ethernet peut être établie via un convertisseur Modbus vers Ethernet ou directement via le **protocole Modbus TCP**.
 
 ### 2. Connexions des trois appareils à un même réseau Modbus TCP :
 Il existe 3 conditions à respecter :
