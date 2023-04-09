@@ -47,9 +47,11 @@ Il existe 3 conditions à respecter :
  iii. Les adresses IP doivent être différentes l'une de l'autre (unique sur le réseau).
  ```
 
-Dans cet exemple, nous avons défini le réseau IP comme étant "192.168.0.0".
-Nous avons attribué une plage d'adresses IP de "192.168.0.1" à "192.168.0.254".
-
+Dans cet exemple,
+```
+- Nous avons défini le réseau IP comme étant "192.168.0.0".
+- Nous avons attribué une plage d'adresses IP de "192.168.0.1" à "192.168.0.254".
+```
 Pour respecter ces conditions, nous pouvons attribuer les adresses IP suivantes à chaque appareil :
 ```
 Automate : 192.168.0.1
