@@ -62,7 +62,7 @@ Carte Raspberry : 192.168.0.121
 
 Pour la réalisation de notre projet, nous avons développé 4 fonctionnalités :
 
-i. Lecture des données des capteurs :
+#### i. Lecture des données des capteurs :
 
 Je vais vous décrire la marche à suivre que j'ai adoptée.
 
