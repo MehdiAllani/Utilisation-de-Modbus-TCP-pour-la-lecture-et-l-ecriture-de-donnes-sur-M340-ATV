@@ -41,11 +41,11 @@ La relation entre Modbus et Ethernet peut être établie via un convertisseur Mo
 
 ### 2. Connexions des trois appareils à un même réseau Modbus TCP :
 Il existe 3 conditions à respecter :
-```
+
 #### i. Les adresses IP des trois appareils doivent être dans le même réseau IP.
 #### ii. Les adresses IP doivent être dans la plage d'adresses IP attribuée au réseau.
 #### iii. Les adresses IP doivent être différentes l'une de l'autre, car chaque adresse IP doit être unique sur le réseau.
-```
+
 
 Dans cet exemple, nous avons défini le réseau IP comme étant "192.168.0.0".
 
