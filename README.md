@@ -1,5 +1,24 @@
 # Utilisation de Modbus TCP pour la lecture et l'écriture de donnes sur M340-ATV
 
+---
+Table des matières
+I. Mise en situation
+II. L'objectif du projet 
+III. Présentation du convoyeur et de son fonctionnement en mode automatique :
+IV. Solution proposée: (domaine industrie 4.0)
+V. Problematique 
+VI. Réalisation 
+ 1. Matériels
+ 2. Définition du protocole de communication 
+ 3. Connexions des trois appareils à un même réseau Modbus TCP 
+ 4. Programme Node-RED
+	4.1. Lecture des données des capteurs 
+	4.2. Écriture ou commande à travers notre interface
+	4.3. Échange de données
+	4.4. Visualisation à travers une interface Node-RED
+VII. Conclusion
+
+---
 ### I. Mise en situation:
 
  [L'école universitaire de physique et d'ingénierie](https://eupi.uca.fr/) dispose d'une ligne de production pédagogique, où un convoyeur rotatif (C) est utilisé pour transporter les pièces fournies par un convoyeur (T1) à un autre convoyeur (T2) perpendiculaire à T1.  Ce convoyeur rotatif est un élément clé de la ligne de production, car il permet de transporter les pièces d'une station à l'autre en utilisant des capteurs et des actionneurs pour optimiser le processus de production. Il est donc crucial de bien comprendre son fonctionnement et son utilisation pour garantir une efficacité maximale de la ligne de production.
