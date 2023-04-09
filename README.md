@@ -96,13 +96,14 @@ Nœud client Modbus TCP : pour écrire msg.payload.
 Pour l'échange de données avec une autre machine industrielle disposant d'une autre carte Raspberry, nous avons ajouté des nœuds "mqtt out", qui permettent de publier des messages à un broker MQTT.
 
 Pour tester la récupération des valeurs de nos capteurs, nous avons testé le partage d'informations sur 2 réseaux :
-1. Réseau wlan0 :
+**1. Réseau wlan0 :**
+
 Tous mes capteurs sont accessibles de n'importe quelle carte depuis 
 ```
 Topic : tp4/Nom_du_capteur
 Réseau : 192.168.50.171 (wlan0)
 ```
-2. Réseau local :
+**2. Réseau local :**
 ```
 Topic : tp4/Nom_du_capteur
 Réseau : 127.0.0.1 (lo)
