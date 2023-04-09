@@ -103,6 +103,8 @@ Pour la lecture, nous avons commencé par identifier les capteurs dans tout le s
 2 capteurs pour la position du "vérin de transition vertical"
 2 capteurs pour localiser le produit sur le convoyeur.
 ```
+![](images/image_004.png)
+
 - Création de copies des adresses des capteurs :
 
 Pour manipuler les variables d'états de nos capteurs, nous avons créé des copies sous forme de bits mémoire sur le programme de l'automate programmable industriel (API) M340, qui est responsable de l'exécution des différents processus de la machine.
