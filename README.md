@@ -162,6 +162,10 @@ Nœud Text pour l'affichage.
 ```
 ![](images/image_012.png)
 
+### 7.Vidéo
+
+![](vidéo/Vidéo.mp4)
+
 ### 7. Conclusion :
 Grâce à ce projet, j'ai pu acquérir les compétences suivantes :
 - Créer un réseau Modbus TCP.
