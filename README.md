@@ -113,9 +113,9 @@ l'exécution des différents processus de la machine.
 
 - **Pour la collecte des données, nous avons utilisé 3 nœuds :**
 ```
-Nœud client Modbus TCP : il suffit d'identifier le type de variable et son adresse.
-Nœud Change : qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
-Nœud debug : qui permet d'afficher les données transmises dans le flux.	
+**Nœud client Modbus TCP :** il suffit d'identifier le type de variable et son adresse.
+**Nœud Change :** qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
+**Nœud debug :** qui permet d'afficher les données transmises dans le flux.	
 ```
 ![](images/image_009.png)
 
@@ -130,6 +130,8 @@ Nœud client Modbus TCP : pour écrire msg.payload.
 ### c. Échange de données :
 
 Pour l'échange de données avec une autre machine industrielle disposant d'une autre carte Raspberry, nous avons ajouté des nœuds "mqtt out", qui permettent de publier des messages à un broker MQTT.
+
+![](images/image_010.png)
 
 Pour tester la récupération des valeurs de nos capteurs, nous avons testé le partage d'informations sur 2 réseaux :
 
@@ -150,6 +152,8 @@ Nous avons également pu récupérer les positions x, y et z à travers :
 Server : 192.168.50.83 (wlan0)
 Topic : Pos x, y et Pos z
 ```
+![](images/image_011.png)
+
 ### d. Visualisation à travers une interface Node-RED :
 Pour la visualisation, j'ai divisé mes données en groupe et utilisé :
 ```
