@@ -160,6 +160,8 @@ Pour la visualisation, j'ai divisé mes données en groupe et utilisé :
 Nœud Switch pour l'écriture.
 Nœud Text pour l'affichage.
 ```
+![](images/image_012.png)
+
 ### 7. Conclusion :
 Grâce à ce projet, j'ai pu acquérir les compétences suivantes :
 - Créer un réseau Modbus TCP.
