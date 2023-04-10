@@ -16,7 +16,8 @@ Table des matières
 		2. [Écriture ou commande à travers notre interface](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV#b-%C3%A9criture-ou-commande-%C3%A0-travers-notre-interface-)
 		3. [Échange de données](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV#c-%C3%A9change-de-donn%C3%A9es-)
 		4. [Visualisation à travers une interface Node-RED](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV#d-visualisation-%C3%A0-travers-une-interface-node-red-)
-7. [Conclusion](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV#7-conclusion-)
+7. [Vidéo](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV#7vid%C3%A9o)
+8. [Conclusion](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV#7-conclusion-)
 
 ---
 ### 1. Mise en situation:
@@ -166,7 +167,7 @@ Nœud Text pour l'affichage.
 
 [Vidéo](https://youtu.be/ojUAjaii7UQ)
 
-### 7. Conclusion :
+### 8. Conclusion :
 Grâce à ce projet, j'ai pu acquérir les compétences suivantes :
 - Créer un réseau Modbus TCP.
 - Modifier l'adresse IP d'un Raspberry Pi ou d'un PC.
