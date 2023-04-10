@@ -164,7 +164,7 @@ Nœud Text pour l'affichage.
 
 ### 7.Vidéo
 
-![](vidéo/Vidéo.mp4)
+[Vidéo](https://youtu.be/ojUAjaii7UQ)
 
 ### 7. Conclusion :
 Grâce à ce projet, j'ai pu acquérir les compétences suivantes :
