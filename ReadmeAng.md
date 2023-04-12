@@ -2,9 +2,8 @@
 
 Welcome to my project! This project uses Modbus TCP communication technology to establish a connection between an application and an M340-ATV programmable logic controller, allowing for reading and writing of data on this controller.  
 In this README file, you will find detailed information on setting up this connection, as well as instructions for using our application. I hope that this project will be useful to you, and please don't hesitate to contact me if you have any questions or comments.  
-```
-The French version of this README can be found [here](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV#utilisation-de-modbus-tcp-pour-la-lecture-et-l%C3%A9criture-de-donnes-sur-m340-atv).
-```
+
+**The French version of this README can be found** [here](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV#utilisation-de-modbus-tcp-pour-la-lecture-et-l%C3%A9criture-de-donnes-sur-m340-atv).
 ---
 Table of Contents :
 
