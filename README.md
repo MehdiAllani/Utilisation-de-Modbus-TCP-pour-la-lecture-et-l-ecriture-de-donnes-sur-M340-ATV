@@ -117,9 +117,9 @@ l'exécution des différents processus de la machine.
 
 - **Pour la collecte des données, nous avons utilisé 3 nœuds :**
 ```
-**Nœud client Modbus TCP :** il suffit d'identifier le type de variable et son adresse.
-**Nœud Change :** qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
-**Nœud debug :** qui permet d'afficher les données transmises dans le flux.	
+Nœud client Modbus TCP : il suffit d'identifier le type de variable et son adresse.
+Nœud Change : qui, dans ce cas, permet de prendre un bit d'une donnée de taille word.
+Nœud debug : qui permet d'afficher les données transmises dans le flux.	
 ```
 ![](images/image_009.png)
 
