@@ -2,8 +2,9 @@
 
 Bienvenue sur mon projet ! Ce projet utilise la technologie de communication Modbus TCP pour établir une connexion entre une application et un automate M340-ATV, permettant ainsi la lecture et l'écriture de données sur cet automate.  
 Dans ce fichier README, vous trouverez des informations détaillées sur la mise en place de cette connexion ainsi que les instructions pour utiliser notre application. J'espère que ce projet vous sera utile et n'hésitez pas à me contacter si vous avez des questions ou des commentaires.  
+```
 La version anglaise de ce README se trouve [ici](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV/blob/main/ReadmeAng.md#use-of-modbus-tcp-for-reading-and-writing-data-on-m340-atv).
-
+```
 ---
 Table des matières
 1. [Mise en situation](https://github.com/MehdiAllani/Utilisation-de-Modbus-TCP-pour-la-lecture-et-l-ecriture-de-donnes-sur-M340-ATV#1-mise-en-situation)
