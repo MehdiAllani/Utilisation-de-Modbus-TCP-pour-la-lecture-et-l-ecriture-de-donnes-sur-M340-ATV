@@ -51,6 +51,8 @@ This rotary conveyor is equipped with various sensors, such as cylinder and part
 - By integrating a Raspberry Pi board into this machine, we can connect the machine's sensors and actuators to the board. The board can then read the sensor data and send it to a remote monitoring system.
 - By using Node-RED as the interface, we can create a user-friendly graphical interface to monitor the sensor data and the states of the actuators.
 
+![](images/image_002.png)
+
 ### 5. Problematic : 
 
 - How to integrate a Raspberry Pi board into an automated industrial machine?
@@ -108,18 +110,23 @@ These are the steps I followed.
 For reading, we started by identifying the sensors throughout the system.  
 We found 6 sensors, which means 6 data points to read:
 ```
+![](images/image_004.png)
+
 - **Creation of copies of sensor addresses:**
 ```
 To manipulate the state variables of our sensors, we created copies in the form of memory bits  
 on the program of the M340 PLC, which is responsible for executing the various processes of  
 the machine.
 ```
+![](images/image_005.png)
+
 - **For data collection, we used 3 nodes:**
 ```
 Modbus TCP Client node: it is sufficient to identify the variable type and its address.
 Change node: which, in this case, allows to take a bit from a word-sized data.
 Debug node: which allows to display the data transmitted in the flow.
 ```
+![](images/image_009.png)
 
 ### b. Writing or Controlling through our Interface :
 
@@ -128,10 +135,13 @@ For sending commands, we used 2 nodes:
 Switch node: which allows to control the action of the conveyor.
 Modbus TCP Client node: for writing msg.payload.
 ```
+![](images/image_007.png)
 
 ### c.Data Exchange :
 
 For data exchange with another industrial machine equipped with another Raspberry Pi board, we added "mqtt out" nodes, which allow to publish messages to an MQTT broker.
+
+![](images/image_010.png)
 
 To test the retrieval of our sensor values, we tested information sharing on 2 networks:
 
@@ -152,6 +162,8 @@ We were also able to retrieve the x, y, and z positions through:
 Server: 192.168.50.83 (wlan0)
 Topic: Pos x, y, and Pos z
 ```
+![](images/image_011.png)
+
 ### d. Visualization through a Node-RED Interface:
 
 For visualization, I divided my data into groups and used:
@@ -159,6 +171,7 @@ For visualization, I divided my data into groups and used:
 Switch node for writing.
 Text node for display.
 ```
+![](images/image_012.png)
 
 ### 7. Video :
 
